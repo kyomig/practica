@@ -8,3 +8,10 @@ se comprueba la carga del dominio desde el navegador.
 
 # PARTE 2: MÉTODOS PARA VERIFICAR LAS FUNCIONALIDADES
 
+Musa-front: el archivo index.php de Musa, contiene un exit en la línea 10 por lo que no se podrá hacer la petición.
+
+walaa-routing: El código de Walla no funciona ya que en index.php tiene un exit en la linea 4. No se llegará a ningun archivo diferente a index.php.
+
+Alex_RoutingInterface: responde un fatal error, ya que no llama a las rutas ni a los controladores correspondientes, tampoco se encuentra el string ni array de rutas.
+
+Jordi-HTML_Response: 
